@@ -7,6 +7,8 @@ import PropsFunction from './Components/PropsFunction';
 import PropsClass from './Components/PropsClass';
 import State from './Components/State';
 import Counter from './Components/Counter';
+import FunctionalEvent from './Components/FunctionalEvent';
+import ClassEvent from './Components/ClassEvent';
 
 function App() {
   return (
@@ -21,7 +23,9 @@ function App() {
       </PropsFunction>
       <PropsClass name = "Bean"/>
       <State/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <FunctionalEvent/>
+      <ClassEvent/>
 
     </div>
   );
