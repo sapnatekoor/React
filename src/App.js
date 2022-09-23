@@ -9,6 +9,9 @@ import State from './Components/State';
 import Counter from './Components/Counter';
 import FunctionalEvent from './Components/FunctionalEvent';
 import ClassEvent from './Components/ClassEvent';
+import BindingEventHandler from './Components/BindingEventHandler';
+import Parent from './Components/Parent';
+import ConditionalRendering from './Components/ConditionalRendering';
 
 function App() {
   return (
@@ -24,8 +27,11 @@ function App() {
       <PropsClass name = "Bean"/>
       <State/> */}
       {/* <Counter/> */}
-      <FunctionalEvent/>
-      <ClassEvent/>
+      {/* <FunctionalEvent/>
+      <ClassEvent/> */}
+      {/* <BindingEventHandler/> */}
+      {/* <Parent/> */}
+      <ConditionalRendering/>
 
     </div>
   );
