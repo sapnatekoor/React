@@ -12,6 +12,11 @@ import ClassEvent from './Components/ClassEvent';
 import BindingEventHandler from './Components/BindingEventHandler';
 import Parent from './Components/Parent';
 import ConditionalRendering from './Components/ConditionalRendering';
+import ListRendering from './Components/ListRendering';
+import BasicForm from './Components/BasicForm';
+import LifecycleA from './Components/LifecycleA';
+import ParentComp from './Components/ParentComp';
+import Ref from './Components/Ref';
 
 function App() {
   return (
@@ -31,7 +36,12 @@ function App() {
       <ClassEvent/> */}
       {/* <BindingEventHandler/> */}
       {/* <Parent/> */}
-      <ConditionalRendering/>
+      {/* <ConditionalRendering/> */}
+      {/* <ListRendering/> */}
+      {/* <BasicForm/> */}
+      {/* <LifecycleA/> */}
+      {/* <ParentComp/> */}
+      <Ref/>
 
     </div>
   );
