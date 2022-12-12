@@ -1,0 +1,8 @@
+{ 
+    "Leased":[{"siteId1":12,"lat":"186"}],
+    "whiteListed":[{"siteId1":19,"lat":"186"},{"siteId1":19,"lat":"1890"},{"siteId1":19,"lat":"187"}],
+    "tags":["Leased","whiteListed"]
+   }
+   
+   
+   

@@ -17,10 +17,24 @@ import HoverCounter from "./Components/HoverCounter";
 import RenderProps from "./Components/RenderProps";
 import ClickCounterTwo from "./Components/ClickCounterTwo";
 import CounterTwo from "./Components/CounterTwo";
+import ComponentA from "./Components/ComponentA";
+import data from "./data.json";
 
 function App() {
+let newArray = []
+  const check = () =>{
+
+
+  for(let i=0; i<data.whiteListed.length ;i++){
+ newArray.push(data.whiteListed[i].lat);
+
+console.log(newArray)
+  }
+}
+check()
   return (
     <div className="App">
+     
       {/* <FunctionComponent/>
       <ClassComponent/>
       <ComponentWithoutJSX/> */}
@@ -42,10 +56,11 @@ function App() {
       {/* <RenderProps render = {(islogged)=> {
         return islogged ? 'sapna' :' Guest'
       }}/> */}
-      <CounterTwo  renderCount ={(count,function1) =>{
+      {/* <CounterTwo  renderCount ={(count,function1) =>{
         return <ClickCounterTwo count = {count} incrementCountHandler ={function1} />
-      }}/>
-
+      }}/> */}
+      {/* <ComponentA/> */}
+      {/* {console.log(data.whiteListed[0].lat)} */}
     </div>
   );
 }
